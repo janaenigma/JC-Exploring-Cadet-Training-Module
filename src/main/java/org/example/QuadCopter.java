@@ -7,11 +7,11 @@ public class QuadCopter extends Drone implements VisualRecon{
 
     @Override
     public void fly() {
-        System.out.println(getCallsign() + "is hovering with four rotors.");
+        System.out.println(getCallsign() + " is hovering with four rotors.");
     }
 
     @Override
     public void takePicture() {
-        System.out.println(getCallsign() + "takes a picture with its " + SENSOR_TYPE);
+        System.out.println(getCallsign() + " takes a picture with its " + SENSOR_TYPE);
     }
 }
