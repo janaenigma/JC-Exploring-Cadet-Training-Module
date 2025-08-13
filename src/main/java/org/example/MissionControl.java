@@ -16,5 +16,15 @@ public class MissionControl {
         System.out.println("Standard Lens Type: " + VisualRecon.getStandardLensType());
 
         bravo_1.land();
+
+        System.out.println("\n\n--- Deploying Advanced Fixed-Wing Unit ---");
+        FixedWingDrone phoenix_7 = new FixedWingDrone("Phoenix-7");
+        phoenix_7.takeOff();
+        phoenix_7.fly();
+        phoenix_7.takePicture();
+        phoenix_7.interceptSignal();
+        phoenix_7.record4kVideo();
+        phoenix_7.land();
     }
 }
+
