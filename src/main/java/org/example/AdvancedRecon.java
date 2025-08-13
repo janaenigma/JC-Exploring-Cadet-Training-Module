@@ -1,4 +1,4 @@
 package org.example;
 
-public interface AdvancedRecon extends VisualRecon, SignalIntel{
+public interface AdvancedRecon extends VisualRecon, SignalIntel {
 }
